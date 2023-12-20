@@ -49,4 +49,3 @@ merged = Solution().mergeTwoLists(l1, l2)
 
 # 打印合并后的链表
 print_linked_list(merged)
-
