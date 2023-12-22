@@ -1,4 +1,4 @@
-from typing import Tuple, List, Set, Dict, Optional
+from typing import List
 
 
 class Solution(object):
@@ -12,4 +12,10 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    print(Solution.removeDuplicates(Solution(), [1, 1, 2]))
+    case = [1, 1, 2]
+    print(Solution().removeDuplicates(case), end="--")
+    print(case)
+
+    case2 = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
+    print(Solution().removeDuplicates(case2), end="--")
+    print(case2)
