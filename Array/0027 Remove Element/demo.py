@@ -3,14 +3,11 @@ from typing import List
 
 class Solution(object):
     def removeElement(self, nums: List[int], val: int) -> int:
-        if not nums:
-            return 0
-        else:
-            l = 0
-            for i, num in enumerate(nums):
-                if num != val:
-                    nums[l] = num
-                    l += 1
+        l = 0
+        for i, num in enumerate(nums):
+            if num != val:
+                nums[l] = num
+                l += 1
         return l
 
 
