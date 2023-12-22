@@ -1,4 +1,12 @@
 # ideas
+## python
+```
+在 Python 3.5 引入类型提示后，typing 库提供了一组用于定义类型的工具，
+包括各种类型（如List、Tuple、Dict等），以及用于泛型编程的工具（如Union、Optional等）。
+这些工具有助于在代码中更清晰地表达预期的数据类型，提高代码的可读性和可维护性。
+```
+
+
 ## 0001 two sum
 ideas:<br>
 ```
