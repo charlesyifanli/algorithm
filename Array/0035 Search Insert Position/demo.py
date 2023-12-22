@@ -12,10 +12,7 @@ class Solution(object):
                 l = mid + 1
             else:
                 r = mid - 1
-        if r > mid:
-            return r
-        else:
-            return l
+        return r if r > mid else l
 
 
 if __name__ == '__main__':
