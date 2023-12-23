@@ -17,7 +17,7 @@ time complexity：O(n)
 space complexity: O(n)
 ```
 
-## demo2(recommended)
+## demo2
 
 ```
 遇到9赋0，遇到其他加1并且直接返回
@@ -29,11 +29,9 @@ time complexity：O(n)
 space complexity: O(1)
 ```
 
-## demo3(least codes)
+## demo3(recommended strongly)
 
-```
-
-```
+将数字元素拼成字符串，转成整数，加1，分割成数字元素
 
 ```
 time complexity：O(n)

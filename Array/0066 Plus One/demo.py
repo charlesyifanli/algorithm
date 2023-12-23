@@ -12,6 +12,7 @@ class Solution(object):
                 temp = digits[i] + carry
             new_digits.append(temp % 10)
             carry = temp // 10
+
             i -= 1
         if carry != 0:
             new_digits.append(carry)
