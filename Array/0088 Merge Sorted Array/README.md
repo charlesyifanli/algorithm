@@ -14,5 +14,21 @@ time: O(m+n)
 space: O(m+n)
 ```
 
-## demo2
+## demo2(least codes)
+
+暴力将两个数组融合在一起，然后使用排序函数。
+
+```
+time: O((m+n)log(m+n))
+space: O(1)
+```
+
+## demo3(recommended)
+
+the same as demo, but no more space
+
+```
+time: O(m+n)
+space: O(1)
+```
 
