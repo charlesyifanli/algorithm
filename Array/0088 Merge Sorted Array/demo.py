@@ -10,18 +10,17 @@ class Solution(object):
                 new_num.append(nums2[p2])
                 p2 += 1
                 continue
-            elif p2 == n:
+            if p2 == n:
                 new_num.append(nums1[p1])
                 p1 += 1
                 continue
-            elif nums1[p1] < nums2[p2]:
+            if nums1[p1] < nums2[p2]:
                 new_num.append(nums1[p1])
                 p1 += 1
             else:
                 new_num.append(nums2[p2])
                 p2 += 1
-        for i, num in enumerate(new_num):
-            nums1[i] = num
+        nums1[:m + n] = new_num
 
 
 if __name__ == '__main__':

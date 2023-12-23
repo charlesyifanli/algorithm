@@ -9,8 +9,10 @@ Output:无
 被合并的数组需要一个判断指针。<br>
 目标数组的指针除了赋值还要比较
 
-
 ```
 time: O(m+n)
-space: O(1)
+space: O(m+n)
 ```
+
+## demo2
+
