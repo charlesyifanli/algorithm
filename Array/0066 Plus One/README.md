@@ -5,9 +5,13 @@ Operation:从左到右表示一个整数，提取出来加一。<br>
 Output: 返回新数组
 
 ## demo
-1. 0元素特殊对待 
-2. 数组从右到左遍历(条件：右指针不越界，carry要为零)
-3. 逆序遍历，顺序存储，逆序数组，注意加一和carry
+
+```
+逆序遍历数组，
+顺序赋值新数组，特别注意carry
+新数组逆序
+```
+
 ```
 time complexity：O(n)
 space complexity: O(1)
