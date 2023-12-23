@@ -14,5 +14,5 @@ Output: 返回新数组
 
 ```
 time complexity：O(n)
-space complexity: O(1)
+space complexity: O(n)
 ```

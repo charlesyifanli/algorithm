@@ -18,6 +18,8 @@ class Solution(object):
         return new_digits[::-1]
 
 
+# return [int(x) for x in (str(int("".join([str(x) for x in digits])) + 1))]
+
 if __name__ == '__main__':
     case = [0]
     print(Solution().plusOne(case))
