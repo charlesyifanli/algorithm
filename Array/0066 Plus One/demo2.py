@@ -7,7 +7,7 @@ class Solution:
             if digits[i] == 9:
                 digits[i] = 0
             else:
-                digits[i] = digits[i] + 1
+                digits[i] += 1
                 return digits
         return [1] + digits
 
@@ -16,7 +16,7 @@ if __name__ == '__main__':
     case = [0]
     print(Solution().plusOne(case))
 
-    case = [8,9]
+    case = [6, 7, 9]
     print(Solution().plusOne(case))
 
     case = [9, 9, 9]
