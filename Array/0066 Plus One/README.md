@@ -16,3 +16,26 @@ Output: 返回新数组
 time complexity：O(n)
 space complexity: O(n)
 ```
+
+## demo2(recommended)
+
+```
+遇到9赋0，遇到其他加1（最后直接返回）
+最后高位加一
+```
+
+```
+time complexity：O(n)
+space complexity: O(1)
+```
+
+## demo3(least codes)
+
+```
+
+```
+
+```
+time complexity：O(n)
+space complexity: O(1)
+```
