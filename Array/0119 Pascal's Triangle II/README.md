@@ -19,3 +19,12 @@ Output:返回该层所有元素
 tc:O(n²)
 sc:O(n²)
 ```
+
+## demo2(recommended)
+
+一行一行的找,只需要最后一行所需的空间
+
+```
+tc:O(n²)
+sc:O(n)
+```
