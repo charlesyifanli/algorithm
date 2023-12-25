@@ -3,7 +3,7 @@
 Algorithm practice primarily revolves around Python programming, while other languages serve as a secondary interest. In description, a source file without a file extension typically refers to a Python source file.
 ```
 C:.                                                              
-├───Array                                       
+├───Array(8)                                    
 │   ├───0001 Two Sum                            
 │   ├───0011 Container With Most Water          
 │   ├───0026 Remove Duplicates from Sorted Array
@@ -13,10 +13,10 @@ C:.
 │   ├───0088 Merge Sorted Array
 │   └───0118 Pascal's Triangle
 │       └───assets
-├───Linked List
+├───Linked List(1)
 │   └───0021 Merge Two Sorted Lists
-├───String
+├───String(1)
 │   └───0003 Longest Substring Without Repeating Characters
-└───Two Pointers
+└───Two Pointers(1)
     └───0015 3Sum
 ```
