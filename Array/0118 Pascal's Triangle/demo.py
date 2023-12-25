@@ -3,18 +3,14 @@ from typing import List
 
 class Solution(object):
     def generate(self, numRows: int) -> List[List[int]]:
-        res = []
-        temp = []
-        for i in range(numRows):
-            if i == 0:
-                temp = [1]
-                res += [temp]
-                continue
-            new_temp = []
+        last_row = [1]
+        res = [last_row]
+        for i in range(1,numRows):
+            sub_row = []
             for j in range(1, i):
-                new_temp += [temp[j - 1] + temp[j]]
-            temp = [1] + new_temp + [1]
-            res += [temp]
+                sub_row += [last_row[j - 1] + last_row[j]]
+            last_row = [1] + sub_row + [1]
+            res += [last_row]
         return res
 
 
