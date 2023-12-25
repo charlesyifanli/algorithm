@@ -1,3 +1,8 @@
+## description:
+
+![q.png](assets/q.png)
+![a.png](assets/a.png)
+
 ## understanding
 
 Input:一个整数表示杨辉三角的层数,或者返回的列表的元素个数<br>
@@ -14,7 +19,3 @@ Output:一个列表，列表元素的每行的元素的列表
 tc:O(n²)
 sc:O(n²)
 ```
-
-## picture
-
-!["pic""](./assets/img.png)
