@@ -1,8 +1,7 @@
 # structure👋
-🌱 🌱 
-Algorithm practice primarily revolves around Python programming, while other languages serve as a secondary interest.<br>
-🌱 🌱 
-Here is the project structure
+🌱 🌱 Algorithm practice primarily revolves around Python programming,<br> 
+🌱 🌱 while other languages serve as a secondary interest.<br>
+🌱 🌱 Here is the project structure
 ```
 C:.                                                                                  
 ├───Array(10)                                       
