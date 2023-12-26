@@ -7,8 +7,7 @@ class Solution(object):
         left = 0
         for right in range(1, len(prices)):
             max_profit = prices[right] - prices[left] if max_profit < prices[right] - prices[left] else max_profit
-            if prices[right] < prices[left]:
-                left = right
+            left = right if prices[right] < prices[left] else right
         return max_profit
 
 
