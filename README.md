@@ -1,6 +1,6 @@
 # structure👋
 🌱 🌱 
-Algorithm practice primarily revolves around Python programming, while other languages serve as a secondary interest. In description, a source file without a file extension typically refers to a Python source file.<br>
+Algorithm practice primarily revolves around Python programming, while other languages serve as a secondary interest.<br>
 🌱 🌱 
 Here is the project structure
 ```
