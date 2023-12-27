@@ -8,11 +8,11 @@
 [dynamic programming](https://www.geeksforgeeks.org/dynamic-programming/?ref=gcse)
 ```
 C:.                                                              
-├───Array                                       
-│   ├───0001 Two Sum                            
-│   ├───0011 Container With Most Water          
+├───Array
+│   ├───0001 Two Sum
+│   ├───0011 Container With Most Water
 │   ├───0026 Remove Duplicates from Sorted Array
-│   ├───0027 Remove Element                     
+│   ├───0027 Remove Element
 │   ├───0035 Search Insert Position
 │   ├───0066 Plus One
 │   ├───0088 Merge Sorted Array
