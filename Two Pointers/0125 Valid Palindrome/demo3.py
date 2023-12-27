@@ -1,6 +1,6 @@
 class Solution(object):
-    def isPalindrome(self, s: str):
-        s = ''.join(i for i in s if i.isalnum()).upper()
+    def isPalindrome(self, s: str) -> bool:
+        s = ''.join(x for x in s if x.isalnum()).upper()
         return s[:len(s) >> 1] == s[:-(len(s) >> 1) - 1:-1]
 
 
