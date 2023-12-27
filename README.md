@@ -24,7 +24,9 @@ C:.
 │   ├───0003 Longest Substring Without Repeating Characters
 │   ├───0013 Roman to Integer
 │   │   └───assets
-│   └───0020 Valid Parentheses
+│   ├───0020 Valid Parentheses
+│   │   └───assets
+│   └───0028 Implement strStr()
 │       └───assets
 └───Two Pointers
     └───0015 3Sum
