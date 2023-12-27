@@ -1,7 +1,11 @@
 # structure👋
 🌱 🌱 Algorithm practice primarily revolves around Python programming,<br> 
 🌱 🌱 while other languages serve as a secondary interest.<br>
-🌱 🌱 Here is the project structure
+🌱 🌱 Here is the project structure<br>
+✨✨
+## references
+[stack](https://www.geeksforgeeks.org/stack-in-python/)<br>
+[dynamic programming](https://www.geeksforgeeks.org/dynamic-programming/?ref=gcse)
 ```
 C:.                                                                                  
 ├───Array
@@ -39,6 +43,3 @@ C:.
         └───assets
 ```
 ✨✨
-## data structure
-[stack](https://www.geeksforgeeks.org/stack-in-python/)<br>
-[dynamic programming](https://www.geeksforgeeks.org/dynamic-programming/?ref=gcse)
