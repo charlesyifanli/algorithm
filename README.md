@@ -4,11 +4,11 @@
 🌱 🌱 Here is the project structure
 ```
 C:.                                                                                  
-├───Array                                       
-│   ├───0001 Two Sum                            
-│   ├───0011 Container With Most Water          
+├───Array
+│   ├───0001 Two Sum
+│   ├───0011 Container With Most Water
 │   ├───0026 Remove Duplicates from Sorted Array
-│   ├───0027 Remove Element                     
+│   ├───0027 Remove Element
 │   ├───0035 Search Insert Position
 │   ├───0066 Plus One
 │   ├───0088 Merge Sorted Array
@@ -22,7 +22,9 @@ C:.
 │   └───0021 Merge Two Sorted Lists
 ├───String
 │   ├───0003 Longest Substring Without Repeating Characters
-│   └───0013 Roman to Integer
+│   ├───0013 Roman to Integer
+│   │   └───assets
+│   └───0020 Valid Parentheses
 │       └───assets
 └───Two Pointers
     └───0015 3Sum
