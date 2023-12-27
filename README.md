@@ -7,7 +7,8 @@
 [heap](https://www.geeksforgeeks.org/heap-data-structure/?ref=gcse)<br>
 [stack](https://www.geeksforgeeks.org/stack-in-python/)<br>
 [queue](https://www.geeksforgeeks.org/queue-data-structure/?ref=gcse)<br>
-[dynamic programming](https://www.geeksforgeeks.org/dynamic-programming/?ref=gcse)
+[dynamic programming](https://www.geeksforgeeks.org/dynamic-programming/?ref=gcse)<br>
+[dfs](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/?ref=gcse)<br>
 ```
 C:.                                                              
 ├───Array
