@@ -32,8 +32,11 @@ C:.
 │       └───assets
 └───Two Pointers
     ├───0026 Remove Duplicates from Sorted Array
+    │   └───assets
     ├───0027 Remove Element
+    │   └───assets
     └───0028 Implement strStr()
+        └───assets
 ```
 ✨✨
 ## data structure
