@@ -1,9 +1,6 @@
-import re
-
-
 class Solution:
     def isPalindrome(self, s: str) -> bool:
-        s = re.compile(r'[^a-zA-Z]').sub('', s)
+        s = "".join(filter(str.isalnum, s))
         s = s.upper()
         r = len(s) // 2
         l = r - 1 if len(s) % 2 == 0 else r
