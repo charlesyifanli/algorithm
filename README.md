@@ -35,5 +35,5 @@ C:.
 ```
 ✨✨
 ## data structure
-[stack](https://www.geeksforgeeks.org/stack-in-python/)
+[stack](https://www.geeksforgeeks.org/stack-in-python/)<br>
 [dynamic programming](https://www.geeksforgeeks.org/dynamic-programming/?ref=gcse)
