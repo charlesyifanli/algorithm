@@ -9,6 +9,7 @@
 [queue](https://www.geeksforgeeks.org/queue-data-structure/?ref=gcse)<br>
 [dynamic programming](https://www.geeksforgeeks.org/dynamic-programming/?ref=gcse)<br>
 [dfs](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/?ref=gcse)<br>
+[bfs](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/?ref=gcse)<br>
 ```
 C:.                                                              
 ├───Array
