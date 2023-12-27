@@ -26,7 +26,9 @@ C:.
 │   │   └───assets
 │   ├───0020 Valid Parentheses
 │   │   └───assets
-│   └───0028 Implement strStr()
+│   ├───0028 Implement strStr()
+│   │   └───assets
+│   └───0067 Add Binary
 │       └───assets
 └───Two Pointers
     └───0015 3Sum
