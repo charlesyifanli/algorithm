@@ -36,3 +36,4 @@ C:.
 ✨✨
 ## data structure
 [stack](https://www.geeksforgeeks.org/stack-in-python/)
+[dynamic programming](https://www.geeksforgeeks.org/dynamic-programming/?ref=gcse)
