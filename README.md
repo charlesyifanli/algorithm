@@ -31,7 +31,9 @@ C:.
 │   └───0067 Add Binary
 │       └───assets
 └───Two Pointers
-    └───0015 3Sum
+    ├───0026 Remove Duplicates from Sorted Array
+    ├───0027 Remove Element
+    └───0028 Implement strStr()
 ```
 ✨✨
 ## data structure
