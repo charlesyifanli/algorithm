@@ -28,3 +28,5 @@ C:.
     └───0015 3Sum
 ```
 ✨✨
+## data structure
+[stack](https://www.geeksforgeeks.org/stack-in-python/)
