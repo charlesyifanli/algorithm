@@ -5,7 +5,7 @@
 
 ## demo()
 
-遍历
+traverse
 
 ```
 tc:O(mn)
