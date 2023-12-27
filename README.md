@@ -4,10 +4,7 @@
 🌱 🌱 Here is the project structure<br>
 
 ## references✨✨
-[heap](https://www.geeksforgeeks.org/heap-data-structure/?ref=gcse)<br>
-[stack](https://www.geeksforgeeks.org/stack-in-python/)<br>
-[queue](https://www.geeksforgeeks.org/queue-data-structure/?ref=gcse)<br>
-[dynamic programming](https://www.geeksforgeeks.org/dynamic-programming/?ref=gcse)
+[heap](https://www.geeksforgeeks.org/heap-data-structure/?ref=gcse)    [stack](https://www.geeksforgeeks.org/stack-in-python/)    [queue](https://www.geeksforgeeks.org/queue-data-structure/?ref=gcse)    [dynamic programming](https://www.geeksforgeeks.org/dynamic-programming/?ref=gcse)
 ```
 C:.                                                              
 ├───Array
