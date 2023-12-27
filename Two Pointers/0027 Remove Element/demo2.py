@@ -3,12 +3,9 @@ from typing import List
 
 class Solution(object):
     def removeElement(self, nums: List[int], val: int) -> int:
-        curr = 0
-        for i in range(len(nums)):
-            if nums[i] != val:
-                nums[curr] = nums[i]
-                curr += 1
-        return curr
+        while val in nums:
+            nums.remove(val)
+        return len(nums)
 
 
 if __name__ == '__main__':
