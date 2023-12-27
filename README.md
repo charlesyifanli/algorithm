@@ -4,6 +4,7 @@
 🌱 🌱 Here is the project structure<br>
 
 ## references✨✨
+[heap](https://www.geeksforgeeks.org/heap-data-structure/?ref=gcse)<br>
 [stack](https://www.geeksforgeeks.org/stack-in-python/)<br>
 [dynamic programming](https://www.geeksforgeeks.org/dynamic-programming/?ref=gcse)
 ```
