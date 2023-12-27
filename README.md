@@ -18,7 +18,7 @@ C:.
 │   │   └───assets
 │   ├───0121 Best Time to Buy and Sell Stock
 │   │   └───assets
-│   └───0122 Best Time to Buy and Sell Stock II
+│   └───0122 Best Time to Buy and Sell Stock II----not passed
 │       └───assets
 ├───Linked List
 │   └───0021 Merge Two Sorted Lists
