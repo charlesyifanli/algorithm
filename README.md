@@ -4,8 +4,8 @@
 🌱 🌱 Here is the project structure
 ```
 C:.                                                                                  
-├───Array(11)                                 
-│   ├───0001 Two Sum                      
+├───Array                                       
+│   ├───0001 Two Sum                            
 │   ├───0011 Container With Most Water          
 │   ├───0026 Remove Duplicates from Sorted Array
 │   ├───0027 Remove Element                     
@@ -16,17 +16,15 @@ C:.
 │   │   └───assets
 │   ├───0119 Pascal's Triangle II
 │   │   └───assets
-│   ├───0121 Best Time to Buy and Sell Stock
-│   │   └───assets
-│   └───0122 Best Time to Buy and Sell Stock II
+│   └───0121 Best Time to Buy and Sell Stock
 │       └───assets
-├───Linked List(1)
+├───Linked List
 │   └───0021 Merge Two Sorted Lists
-├───String(2)
+├───String
 │   ├───0003 Longest Substring Without Repeating Characters
 │   └───0013 Roman to Integer
 │       └───assets
-└───Two Pointers(1)
+└───Two Pointers
     └───0015 3Sum
 ```
 ✨✨
