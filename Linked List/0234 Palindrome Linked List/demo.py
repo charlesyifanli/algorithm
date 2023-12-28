@@ -14,7 +14,7 @@ class Solution:
         while curr:
             ls.append(curr.val)
             curr = curr.next
-        return ls[:len(ls) >> 1] == ls[:-(len(ls) >> 1) - 1:-1]
+        return ls == ls[::-1]
 
 
 if __name__ == '__main__':
