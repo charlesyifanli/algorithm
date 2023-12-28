@@ -31,7 +31,9 @@ C:.
 │   ├───0021 Merge Two Sorted Lists
 │   ├───0083 Remove Duplicates from Sorted List
 │   │   └───assets
-│   └───0141 Linked List Cycle
+│   ├───0141 Linked List Cycle
+│   │   └───assets
+│   └───0160 Intersection of Two Linked Lists
 │       └───assets
 ├───String
 │   ├───0003 Longest Substring Without Repeating Characters
