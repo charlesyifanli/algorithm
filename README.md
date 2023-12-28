@@ -38,7 +38,9 @@ C:.
 │   │   └───assets
 │   ├───0203 Remove Linked List Elements
 │   │   └───assets
-│   └───0206 Reverse Linked List
+│   ├───0206 Reverse Linked List
+│   │   └───assets
+│   └───0234 Palindrome Linked List
 │       └───assets
 ├───String
 │   ├───0003 Longest Substring Without Repeating Characters
