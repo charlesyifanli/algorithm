@@ -13,8 +13,8 @@
 [hash](https://www.geeksforgeeks.org/hashing-data-structure/?ref=gcse)<br>
 ```
 C:.                                                              
-├───Array
-│   ├───0001 Two Sum
+├───Array                                 
+│   ├───0001 Two Sum                      
 │   ├───0011 Container With Most Water
 │   ├───0026 Remove Duplicates from Sorted Array
 │   ├───0027 Remove Element
@@ -28,7 +28,9 @@ C:.
 │   └───0121 Best Time to Buy and Sell Stock
 │       └───assets
 ├───Linked List
-│   └───0021 Merge Two Sorted Lists
+│   ├───0021 Merge Two Sorted Lists
+│   └───0083 Remove Duplicates from Sorted List
+│       └───assets
 ├───String
 │   ├───0003 Longest Substring Without Repeating Characters
 │   ├───0013 Roman to Integer
