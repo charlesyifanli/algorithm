@@ -1,14 +1,4 @@
 ## traverse linked list:
-not have last node
-```
-        ...
-        p = head
-        while p and p.next:
-            ...
-            p = p.next
-        ...
-```
-
 all nodes
 ```
         ...
@@ -17,4 +7,14 @@ all nodes
             ...
             p = p.next
         ... 
+```
+
+not have last node
+```
+        ...
+        p = head
+        while p and p.next:
+            ...
+            p = p.next
+        ...
 ```
