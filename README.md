@@ -34,7 +34,9 @@ C:.
 │   │   └───assets
 │   ├───0141 Linked List Cycle
 │   │   └───assets
-│   └───0160 Intersection of Two Linked Lists
+│   ├───0160 Intersection of Two Linked Lists
+│   │   └───assets
+│   └───0203 Remove Linked List Elements
 │       └───assets
 ├───String
 │   ├───0003 Longest Substring Without Repeating Characters
