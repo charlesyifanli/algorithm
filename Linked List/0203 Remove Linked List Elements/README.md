@@ -1,7 +1,7 @@
 ## description:
 
-![q.png](assets/q.png)
-![a.png](assets/a.png)
+![q.png](assets/img_1.png)
+![a.png](assets/img.png)
 
 ## demo
 
