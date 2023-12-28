@@ -40,7 +40,9 @@ C:.
 │   │   └───assets
 │   ├───0206 Reverse Linked List
 │   │   └───assets
-│   └───0234 Palindrome Linked List
+│   ├───0234 Palindrome Linked List
+│   │   └───assets
+│   └───0237 Delete Node in a Linked List
 │       └───assets
 ├───String
 │   ├───0003 Longest Substring Without Repeating Characters
