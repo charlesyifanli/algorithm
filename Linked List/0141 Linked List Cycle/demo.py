@@ -9,11 +9,11 @@ class ListNode(object):
 
 class Solution(object):
     def hasCycle(self, head: Optional[ListNode]) -> bool:
-        ls = []
+        my_set = set()
         p = head
         while p and p.next:
-            if p in ls:
+            if p in my_set:
                 return True
-            ls.append(p)
+            my_set.add(p)
             p = p.next
         return False
