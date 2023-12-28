@@ -7,10 +7,10 @@
 
 暴力
 
-## demo2
+## demo2(recommended)
 
 two pointers
 
-## demo3
+## demo3 based on demo2
 
 recursion
