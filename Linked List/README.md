@@ -22,8 +22,9 @@ not have last node
         ...
 ```
 
-## recursion in linked list (0203)
-
+## recursion in linked list 
+(0203)(0206)
+recursion is based on loop<br>
 E.g.,
 
 ```
