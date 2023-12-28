@@ -9,19 +9,13 @@ class ListNode:
 
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        ls = []
-        p = head
-        while p:
-            ls.append(p.val)
-            p = p.next
-        ls.reverse()
-        i = 0
-        p = head
-        while p:
-            p.val = ls[i]
-            i += 1
-            p = p.next
-        return head
+        curr, pre = head, None
+        while curr:
+            temp = curr.next
+            curr.next = pre
+            pre = curr
+            curr = temp
+        return pre
 
 
 if __name__ == '__main__':
