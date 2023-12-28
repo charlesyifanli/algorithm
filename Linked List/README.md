@@ -33,3 +33,6 @@ E.g.,
         head.next = self.removeElements(head.next, val)  # recursive
         return head.next if head.val == val else head  # if only one node
 ```
+
+## fast and slow pointers
+(0876)
