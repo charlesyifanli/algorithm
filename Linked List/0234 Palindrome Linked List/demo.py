@@ -7,7 +7,7 @@ class ListNode:
         self.next = next
 
 
-class Solution:
+class Solution(object):
     def isPalindrome(self, head: Optional[ListNode]) -> bool:
         curr = head
         ls = []
