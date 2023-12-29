@@ -15,7 +15,7 @@ class MyStack:
             return None
         for i in range(len(self.queue_in) - 1):
             self.queue_out.append(self.queue_in.popleft())
-        self.queue_in, self.queue_out = self.queue_out, self.queue_in  # 交换in和out，这也是为啥in只用来存
+        self.queue_in, self.queue_out = self.queue_out, self.queue_in
         return self.queue_out.popleft()
 
     def top(self) -> int:
