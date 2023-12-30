@@ -13,7 +13,7 @@
 [hash](https://www.geeksforgeeks.org/hashing-data-structure/?ref=gcse)<br>
 [recursion](https://www.geeksforgeeks.org/recursion-in-python/?ref=gcse)<br>
 ```
-C:.                                                  
+C:.                                                    
 ├───Array                                 
 │   ├───0001 Two Sum                      
 │   ├───0011 Container With Most Water
@@ -66,6 +66,11 @@ C:.
 │   ├───0028 Implement strStr()
 │   │   └───assets
 │   └───0067 Add Binary
+│       └───assets
+├───Tree
+│   ├───0094 Binary Tree Inorder Traversal
+│   │   └───assets
+│   └───0100 Same Tree
 │       └───assets
 └───Two Pointers
     ├───0026 Remove Duplicates from Sorted Array
