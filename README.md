@@ -70,7 +70,9 @@ C:.
 ├───Tree
 │   ├───0094 Binary Tree Inorder Traversal
 │   │   └───assets
-│   └───0100 Same Tree
+│   ├───0100 Same Tree
+│   │   └───assets
+│   └───0101 Symmetric Tree
 │       └───assets
 └───Two Pointers
     ├───0026 Remove Duplicates from Sorted Array
