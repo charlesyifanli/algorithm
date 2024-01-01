@@ -72,7 +72,9 @@ C:.
 │   │   └───assets
 │   ├───0100 Same Tree
 │   │   └───assets
-│   └───0101 Symmetric Tree
+│   ├───0101 Symmetric Tree
+│   │   └───assets
+│   └───0104 Maximum Depth of Binary Tree
 │       └───assets
 └───Two Pointers
     ├───0026 Remove Duplicates from Sorted Array
