@@ -14,8 +14,7 @@ class Solution(object):
         return self.helper(nums, 0, len(nums) - 1)
 
     def helper(self, nums: List[int], left: int, right: int) -> Optional[TreeNode]:
-        if left > right:
-            return None
+        if left > right: return None
         mid = (left + right) // 2
         root = TreeNode(nums[mid])
         root.left = self.helper(nums, left, mid - 1)
