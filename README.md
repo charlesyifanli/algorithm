@@ -25,7 +25,9 @@ C:.
 ├───Dynamic Programming
 │   ├───0070 Climbing Stairs
 │   │   └───assets
-│   └───0121 Best Time to Buy and Sell Stock
+│   ├───0121 Best Time to Buy and Sell Stock
+│   │   └───assets
+│   └───0303 Range Sum Query - Immutable
 │       └───assets
 ├───Linked List
 │   ├───0021 Merge Two Sorted Lists
