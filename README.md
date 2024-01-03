@@ -7,7 +7,7 @@
 materials/
 
 ```
-C:.                                                    
+C:.                                         
 ├───Array                                 
 │   ├───0001 Two Sum                      
 │   ├───0011 Container With Most Water
@@ -19,6 +19,11 @@ C:.
 │   ├───0118 Pascal's Triangle
 │   │   └───assets
 │   ├───0119 Pascal's Triangle II
+│   │   └───assets
+│   └───0121 Best Time to Buy and Sell Stock
+│       └───assets
+├───Dynamic Programming
+│   ├───0070 Climbing Stairs
 │   │   └───assets
 │   └───0121 Best Time to Buy and Sell Stock
 │       └───assets
