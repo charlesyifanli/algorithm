@@ -70,7 +70,9 @@ C:.
 │   │   └───assets
 │   ├───0104 Maximum Depth of Binary Tree
 │   │   └───assets
-│   └───0108 Convert Sorted Array to Binary Search Tree
+│   ├───0108 Convert Sorted Array to Binary Search Tree
+│   │   └───assets
+│   └───0110 Balanced Binary Tree
 │       └───assets
 └───Two Pointers
     ├───0026 Remove Duplicates from Sorted Array
