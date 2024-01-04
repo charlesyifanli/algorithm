@@ -6,7 +6,7 @@ class Solution(object):
         ls = []
         for val in range(num + 1):
             bin_ = bin(val)[2:]
-            bin_ = ''.join(x for x in bin_ if x == '1')
+            bin_ = ''.join([x for x in bin_ if x == '1'])
             print(len(bin_))
             ls.append(len(bin_))
         return ls
