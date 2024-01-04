@@ -7,13 +7,14 @@
 materials/
 
 ```
-C:.                                         
+C:.                                                    
 ├───Array                                 
 │   ├───0001 Two Sum                      
 │   ├───0011 Container With Most Water
 │   ├───0026 Remove Duplicates from Sorted Array
 │   ├───0027 Remove Element
 │   ├───0035 Search Insert Position
+│   │   └───assets
 │   ├───0066 Plus One
 │   ├───0088 Merge Sorted Array
 │   ├───0118 Pascal's Triangle
@@ -22,6 +23,15 @@ C:.
 │   │   └───assets
 │   └───0121 Best Time to Buy and Sell Stock
 │       └───assets
+├───Backtracking
+│   ├───0401 Binary Watch
+│   │   └───assets
+│   └───1688 Count of Matches in Tournament
+│       └───assets
+├───Binary Search
+│   ├───0035 Search Insert Position
+│   │   └───assets
+│   └───0069 Sqrt(x)
 ├───Dynamic Programming
 │   ├───0070 Climbing Stairs
 │   │   └───assets
@@ -29,7 +39,9 @@ C:.
 │   │   └───assets
 │   ├───0303 Range Sum Query - Immutable
 │   │   └───assets
-│   └───0338 Counting Bits
+│   ├───0338 Counting Bits
+│   │   └───assets
+│   └───0392 Is Subsequence
 │       └───assets
 ├───Linked List
 │   ├───0021 Merge Two Sorted Lists
@@ -70,7 +82,7 @@ C:.
 │   │   └───assets
 │   └───0067 Add Binary
 │       └───assets
-├───Tree
+├───Tree&DFS&BFS
 │   ├───0094 Binary Tree Inorder Traversal
 │   │   └───assets
 │   ├───0100 Same Tree
