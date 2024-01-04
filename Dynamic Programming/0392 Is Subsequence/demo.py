@@ -2,7 +2,7 @@ class Solution(object):
     def isSubsequence(self, s: str, t: str) -> bool:
         for _, val in enumerate(s):
             if val in t:
-                t = t[t.index(val)+1:]
+                t = t[t.index(val) + 1:]
                 continue
             else:
                 return False
@@ -10,4 +10,4 @@ class Solution(object):
 
 
 if __name__ == '__main__':
-    print(Solution().isSubsequence("aaaaaa", "bbaaaa"))
+    print(Solution().isSubsequence("axc", "ahbgdc"))
