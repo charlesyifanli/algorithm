@@ -27,7 +27,9 @@ C:.
 │   │   └───assets
 │   ├───0121 Best Time to Buy and Sell Stock
 │   │   └───assets
-│   └───0303 Range Sum Query - Immutable
+│   ├───0303 Range Sum Query - Immutable
+│   │   └───assets
+│   └───0338 Counting Bits
 │       └───assets
 ├───Linked List
 │   ├───0021 Merge Two Sorted Lists
