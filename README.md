@@ -31,7 +31,10 @@ C:.
 ├───Binary Search
 │   ├───0035 Search Insert Position
 │   │   └───assets
-│   └───0069 Sqrt(x)
+│   ├───0069 Sqrt(x)
+│   │   └───assets
+│   └───0167 Two Sum II - Input array is sorted
+│       └───assets
 ├───Dynamic Programming
 │   ├───0070 Climbing Stairs
 │   │   └───assets
