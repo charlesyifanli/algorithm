@@ -6,7 +6,7 @@
 ## references✨✨ in directory materials
 
 ```
-C:.                                                    
+C:.                                                   
 ├───Array                                 
 │   ├───0001 Two Sum                      
 │   ├───0011 Container With Most Water
@@ -64,6 +64,11 @@ C:.
 │   ├───0237 Delete Node in a Linked List
 │   │   └───assets
 │   └───0876 Middle of the Linked List
+│       └───assets
+├───Math
+│   ├───0002 Add Two Numbers
+│   │   └───assets
+│   └───0007 Reverse Integer
 │       └───assets
 ├───Stack
 │   ├───0020 Valid Parentheses
