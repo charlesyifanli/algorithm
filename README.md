@@ -3,7 +3,7 @@
 🌱 🌱 while other languages serve as a secondary interest.<br>
 🌱 🌱 Here is the project structure<br>
 
-## references✨✨ in directory materials/
+## references✨✨ in directory materials
 
 ```
 C:.                                                    
