@@ -32,7 +32,9 @@ C:.
 │   │   └───assets
 │   ├───0069 Sqrt(x)
 │   │   └───assets
-│   └───0167 Two Sum II - Input array is sorted
+│   ├───0167 Two Sum II - Input array is sorted
+│   │   └───assets
+│   └───0278 First Bad Version
 │       └───assets
 ├───Dynamic Programming
 │   ├───0070 Climbing Stairs
