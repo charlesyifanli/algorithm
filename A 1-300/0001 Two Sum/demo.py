@@ -8,11 +8,12 @@ class Solution:
         return []
 
 
-solution = Solution()
-nums = [2, 7, 11, 15]
-target = 9
-result = solution.twoSum(nums, target)
-if result:
-    print(f"Indices of the two numbers that add up to {target}: {result[0]} and {result[1]}")
-else:
-    print("No such pair found.")
+if __name__ == '__main__':
+    solution = Solution()
+    nums = [2, 7, 11, 15]
+    target = 9
+    result = solution.twoSum(nums, target)
+    if result:
+        print(f"Indices of the two numbers that add up to {target}: {result[0]} and {result[1]}")
+    else:
+        print("No such pair found.")
