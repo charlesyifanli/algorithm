@@ -68,7 +68,9 @@ C:.
 ├───Math
 │   ├───0002 Add Two Numbers
 │   │   └───assets
-│   └───0007 Reverse Integer
+│   ├───0007 Reverse Integer
+│   │   └───assets
+│   └───0009 Palindrome Number
 │       └───assets
 ├───Stack
 │   ├───0020 Valid Parentheses
