@@ -6,22 +6,26 @@
 ## references✨✨ in directory materials
 
 ```
-C:.                                                  
+C:.                                                    
 ├───A 1-300                               
 │   ├───0001 Two Sum                      
+│   │   └───assets
 │   ├───0002 Add Two Numbers
 │   │   └───assets
 │   ├───0003 Longest Substring Without Repeating Characters
+│   │   └───assets
 │   ├───0007 Reverse Integer
 │   │   └───assets
 │   ├───0009 Palindrome Number
 │   │   └───assets
 │   ├───0011 Container With Most Water
+│   │   └───assets
 │   ├───0013 Roman to Integer
 │   │   └───assets
 │   ├───0020 Valid Parentheses
 │   │   └───assets
 │   ├───0021 Merge Two Sorted Lists
+│   │   └───assets
 │   ├───0026 Remove Duplicates from Sorted Array
 │   │   └───assets
 │   ├───0027 Remove Element
