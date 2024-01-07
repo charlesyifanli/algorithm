@@ -6,7 +6,7 @@
 ## references✨✨ in directory materials
 
 ```
-C:.                                                  
+C:.                                                    
 ├───A 1-300                               
 │   ├───0001 Two Sum                      
 │   │   ├───assets
@@ -88,7 +88,11 @@ C:.
 │   │   └───assets
 │   ├───0237 Delete Node in a Linked List
 │   │   └───assets
-│   └───0278 First Bad Version
+│   ├───0242 Valid Anagram
+│   │   └───assets
+│   ├───0278 First Bad Version
+│   │   └───assets
+│   └───0283 Move Zeroes
 │       └───assets
 ├───B 301-600
 │   ├───0303 Range Sum Query - Immutable
@@ -99,7 +103,9 @@ C:.
 │   │   └───assets
 │   ├───0392 Is Subsequence
 │   │   └───assets
-│   └───0401 Binary Watch
+│   ├───0401 Binary Watch
+│   │   └───assets
+│   └───0459 Repeated Substring Pattern
 │       └───assets
 ├───C 601-900
 │   └───0876 Middle of the Linked List
