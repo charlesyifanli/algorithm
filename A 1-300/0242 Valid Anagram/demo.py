@@ -1,5 +1,12 @@
+from collections import Counter
+
+
 class Solution(object):
     def isAnagram(self, s: str, t: str) -> bool:
+        return Counter(s) == Counter(t)
+
+    '''
+        def isAnagram(self, s: str, t: str) -> bool:
         dict_ = {}
         for _, val in enumerate(s):
             dict_[val] = 1 if val not in dict_ else dict_[val] + 1
@@ -10,6 +17,7 @@ class Solution(object):
         for val in set_:
             if val != 0: return False
         return True
+    '''
 
 
 if __name__ == '__main__':
