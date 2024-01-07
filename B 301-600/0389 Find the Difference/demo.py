@@ -20,8 +20,8 @@ if __name__ == '__main__':
         assert Solution().findTheDifference(s, t) == 'e'
 
         # case2
-        s = "aa"
-        t = "aaa"
+        s = "aba"
+        t = "aaba"
         assert Solution().findTheDifference(s, t) == 'a'
 
         print("Succeed")
