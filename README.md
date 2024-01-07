@@ -6,10 +6,11 @@
 ## references✨✨ in directory materials
 
 ```
-C:.                                                    
+C:.                                                  
 ├───A 1-300                               
 │   ├───0001 Two Sum                      
-│   │   └───assets
+│   │   ├───assets
+│   │   └───__pycache__
 │   ├───0002 Add Two Numbers
 │   │   └───assets
 │   ├───0003 Longest Substring Without Repeating Characters
@@ -94,6 +95,8 @@ C:.
 │   │   └───assets
 │   ├───0338 Counting Bits
 │   │   └───assets
+│   ├───0389 Find the Difference
+│   │   └───assets
 │   ├───0392 Is Subsequence
 │   │   └───assets
 │   └───0401 Binary Watch
@@ -104,8 +107,11 @@ C:.
 ├───D 901-1200
 ├───E 1201-1500
 ├───F 1501-1800
-│   └───1688 Count of Matches in Tournament
-│       └───assets
+│   ├───1688 Count of Matches in Tournament
+│   │   └───assets
+│   └───1768 Merge Strings Alternately
+│       ├───assets
+│       └───__pycache__
 ├───G 1801-2100
 └───materials
     ├───basic function
