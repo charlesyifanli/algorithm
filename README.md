@@ -6,11 +6,10 @@
 ## references✨✨ in directory materials
 
 ```
-C:.                                                    
-├───A 1-300                               
-│   ├───0001 Two Sum                      
-│   │   ├───assets
-│   │   └───__pycache__
+C:.                                 
+├───A 1-300                      
+│   ├───0001 Two Sum             
+│   │   └───assets
 │   ├───0002 Add Two Numbers
 │   │   └───assets
 │   ├───0003 Longest Substring Without Repeating Characters
@@ -108,17 +107,23 @@ C:.
 │   └───0459 Repeated Substring Pattern
 │       └───assets
 ├───C 601-900
-│   └───0876 Middle of the Linked List
+│   ├───0876 Middle of the Linked List
+│   │   └───assets
+│   └───0896 Monotonic Array
 │       └───assets
 ├───D 901-1200
 ├───E 1201-1500
 ├───F 1501-1800
+│   ├───1502 Can Make Arithmetic Progression From Sequence
+│   │   └───assets
 │   ├───1688 Count of Matches in Tournament
 │   │   └───assets
 │   └───1768 Merge Strings Alternately
 │       ├───assets
 │       └───__pycache__
 ├───G 1801-2100
+│   └───1822 Sign of the Product of an Array
+│       └───assets
 └───materials
     ├───basic function
     └───bst
