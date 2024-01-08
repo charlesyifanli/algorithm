@@ -6,9 +6,9 @@
 ## references✨✨ in directory materials
 
 ```
-C:.                                 
-├───A 1-300                      
-│   ├───0001 Two Sum             
+C:.                                                 
+├───A 1-300                               
+│   ├───0001 Two Sum                      
 │   │   └───assets
 │   ├───0002 Add Two Numbers
 │   │   └───assets
@@ -33,6 +33,8 @@ C:.
 │   ├───0028 Implement strStr()
 │   │   └───assets
 │   ├───0035 Search Insert Position
+│   │   └───assets
+│   ├───0058 Length of Last Word
 │   │   └───assets
 │   ├───0066 Plus One
 │   ├───0067 Add Binary
@@ -107,6 +109,8 @@ C:.
 │   └───0459 Repeated Substring Pattern
 │       └───assets
 ├───C 601-900
+│   ├───0709 To Lower Case
+│   │   └───assets
 │   ├───0876 Middle of the Linked List
 │   │   └───assets
 │   └───0896 Monotonic Array
