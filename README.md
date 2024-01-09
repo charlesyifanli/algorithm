@@ -6,9 +6,9 @@
 ## references✨✨ in directory materials
 
 ```
-C:.                                                 
+C:.                                                    
 ├───A 1-300                               
-│   ├───0001 Two Sum                      
+│   ├───0001 Two Sum
 │   │   └───assets
 │   ├───0002 Add Two Numbers
 │   │   └───assets
@@ -109,6 +109,8 @@ C:.
 │   └───0459 Repeated Substring Pattern
 │       └───assets
 ├───C 601-900
+│   ├───0682 Baseball Game
+│   │   └───assets
 │   ├───0709 To Lower Case
 │   │   └───assets
 │   ├───0876 Middle of the Linked List
