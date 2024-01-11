@@ -4,6 +4,7 @@ from typing import List
 class Solution(object):
     def maximumWealth(self, accounts: List[List[int]]) -> int:
         return max(map(sum, accounts))
+    #  return max(map(lambda x: sum(x), accounts))
 
 
 '''
