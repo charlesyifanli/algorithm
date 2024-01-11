@@ -6,13 +6,8 @@ class Solution(object):
     def tictactoe(self, moves: List[List[int]]) -> str:
         win = {7, 56, 448, 73, 146, 292, 273, 84}
         int_a, int_b = 0, 0
-        list_a, list_b = moves[::2], moves[1::2]
-        for val in list_a:
-            num = val[0] * 3 + val[1]
-            int_a ^= (1 << num)
-        for val in list_b:
-            num = val[0] * 3 + val[1]
-            int_b ^= (1 << num)
+        for val in moves[::2]: int_a ^= (1 << val[0] * 3 + val[1])
+        for val in moves[1::2]: int_b ^= (1 << val[0] * 3 + val[1])
         for val in win:
             if int_a & val == val:
                 return 'A'
@@ -73,6 +68,3 @@ if __name__ == '__main__':
         assert Solution().tictactoe(moves) == 'Draw'
 
         print('Succeed')
-
-
-    test_tictactoe()
