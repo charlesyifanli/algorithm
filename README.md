@@ -6,7 +6,7 @@
 ## references✨✨ in directory materials
 
 ```
-C:.                                                    
+C:.                                                  
 ├───A 1-300                               
 │   ├───0001 Two Sum                      
 │   │   └───assets                        
@@ -125,6 +125,10 @@ C:.
 │       └───assets
 ├───F 1501-1800
 │   ├───1502 Can Make Arithmetic Progression From Sequence
+│   │   └───assets
+│   ├───1523 Count Odd Numbers in an Interval Range
+│   │   └───assets
+│   ├───1572 Matrix Diagonal Sum
 │   │   └───assets
 │   ├───1672 Richest Customer Wealth
 │   │   └───assets
