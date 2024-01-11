@@ -13,10 +13,10 @@ class Solution(object):
         for val in list_b:
             num = val[0] * 3 + val[1]
             int_b ^= (1 << num)
-        for w in win:
-            if int_a & w == w:
+        for val in win:
+            if int_a & val == val:
                 return 'A'
-            elif int_b & w == w:
+            elif int_b & val == val:
                 return 'B'
         return 'Pending' if len(moves) < 9 else 'Draw'
 
