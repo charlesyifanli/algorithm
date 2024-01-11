@@ -4,6 +4,25 @@ from typing import List
 
 class Solution(object):
     def tictactoe(self, moves: List[List[int]]) -> str:
+        win = {7, 56, 448, 73, 146, 292, 273, 84}
+        int_a, int_b = 0, 0
+        list_a, list_b = moves[::2], moves[1::2]
+        for val in list_a:
+            num = val[0] * 3 + val[1]
+            int_a ^= (1 << num)
+        for val in list_b:
+            num = val[0] * 3 + val[1]
+            int_b ^= (1 << num)
+        for w in win:
+            if int_a & w == w:
+                return 'A'
+            elif int_b & w == w:
+                return 'B'
+        return 'Pending' if len(moves) < 9 else 'Draw'
+
+
+'''
+    def tictactoe(self, moves: List[List[int]]) -> str:
         list_0 = []
         list_1 = []
         for i in range(0, (len(moves)), 2):
@@ -30,6 +49,7 @@ class Solution(object):
             return "Draw"
         return "Pending"
 
+'''
 
 '''
     def tictactoe(self, moves: List[List[int]]) -> str:
@@ -41,7 +61,7 @@ class Solution(object):
 if __name__ == '__main__':
     def test_tictactoe():
         # case
-        moves = [[0, 0], [2, 0], [1, 1], [2, 1], [2, 2]]
+        moves = [[1, 2], [2, 1], [1, 0], [0, 0], [0, 1], [2, 0], [1, 1]]
         assert Solution().tictactoe(moves) == 'A'
 
         # case
