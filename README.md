@@ -24,6 +24,8 @@ C:.
 │   │   └───assets
 │   ├───0015 3Sum
 │   │   └───assets
+│   ├───0016 3Sum Closest
+│   │   └───assets
 │   ├───0018 4Sum
 │   │   └───assets
 │   ├───0020 Valid Parentheses
@@ -37,6 +39,8 @@ C:.
 │   ├───0028 Implement strStr()
 │   │   └───assets
 │   ├───0035 Search Insert Position
+│   │   └───assets
+│   ├───0049 Group Anagrams
 │   │   └───assets
 │   ├───0058 Length of Last Word
 │   │   └───assets
