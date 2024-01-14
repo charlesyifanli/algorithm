@@ -6,7 +6,7 @@
 ## references✨✨ in directory materials
 
 ```
-C:.                                                    
+C:.                                                  
 ├───A 1-300                               
 │   ├───0001 Two Sum                      
 │   │   └───assets                        
@@ -42,6 +42,8 @@ C:.
 │   │   └───assets
 │   ├───0049 Group Anagrams
 │   │   └───assets
+│   ├───0056 Merge Intervals
+│   │   └───assets
 │   ├───0058 Length of Last Word
 │   │   └───assets
 │   ├───0066 Plus One
@@ -50,6 +52,8 @@ C:.
 │   ├───0069 Sqrt(x)
 │   │   └───assets
 │   ├───0070 Climbing Stairs
+│   │   └───assets
+│   ├───0075 Sort Colors
 │   │   └───assets
 │   ├───0083 Remove Duplicates from Sorted List
 │   │   └───assets
@@ -149,7 +153,7 @@ C:.
 │   └───1822 Sign of the Product of an Array
 │       └───assets
 └───materials
-    ├───basic function
-    └───bst
+    ├───basic
+    └───sort
 ```
 ✨✨
