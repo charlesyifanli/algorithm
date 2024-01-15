@@ -6,11 +6,11 @@
 ## 👇👇The following is directory structure
 
 ```
-C:.                                                    
+C:.                                       
 ├───A 1-300                               
 │   ├───0001 Two Sum                      
 │   │   └───assets                        
-│   ├───0002 Add Two Numbers
+│   ├───0002 Add Two Numbers              
 │   │   └───assets
 │   ├───0003 Longest Substring Without Repeating Characters
 │   │   └───assets
@@ -132,6 +132,10 @@ C:.
 │   └───0896 Monotonic Array
 │       └───assets
 ├───D 901-1200
+│   ├───0905 Sort Array By Parity
+│   │   └───assets
+│   └───0922 Sort Array By Parity II
+│       └───assets
 ├───E 1201-1500
 │   ├───1275 Find Winner on a Tic Tac Toe Game
 │   │   └───assets
@@ -154,7 +158,9 @@ C:.
 │       ├───assets
 │       └───__pycache__
 ├───G 1801-2100
-│   └───1822 Sign of the Product of an Array
+│   ├───1822 Sign of the Product of an Array
+│   │   └───assets
+│   └───1859 Sorting the Sentence
 │       └───assets
 └───materials
     ├───basic
