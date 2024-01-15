@@ -1,8 +1,7 @@
 # Introduction👋
-✨✨ Algorithm practice primarily revolves around Python programming,<br> 
-✨✨ while other languages serve as a secondary interest.<br>
+✨✨ Algorithm practice primarily revolves around Python programming, while other languages serve as a secondary interest.<br>
 ✨✨ References are all in directory called materials.<br>
-🌱 🌱 Good luck to you all!
+✨✨ Good luck to you all!
 
 ## 👇👇The following is directory structure
 
@@ -161,4 +160,4 @@ C:.
     ├───basic
     └───sort
 ```
-✨✨
+🌱 🌱
