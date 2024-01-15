@@ -1,9 +1,10 @@
-# structure👋
-🌱 🌱 Algorithm practice primarily revolves around Python programming,<br> 
-🌱 🌱 while other languages serve as a secondary interest.<br>
-🌱 🌱 Here is the project structure<br>
+# Introduction👋
+✨✨ Algorithm practice primarily revolves around Python programming,<br> 
+✨✨ while other languages serve as a secondary interest.<br>
+✨✨ References are all in directory called materials.<br>
+🌱 🌱 Good luck to you all!
 
-## references✨✨ in directory materials
+## 👇👇The following is directory structure
 
 ```
 C:.                                                    
