@@ -6,7 +6,7 @@
 ## references✨✨ in directory materials
 
 ```
-C:.                                                  
+C:.                                                    
 ├───A 1-300                               
 │   ├───0001 Two Sum                      
 │   │   └───assets                        
@@ -133,7 +133,11 @@ C:.
 │       └───assets
 ├───D 901-1200
 ├───E 1201-1500
-│   └───1275 Find Winner on a Tic Tac Toe Game
+│   ├───1275 Find Winner on a Tic Tac Toe Game
+│   │   └───assets
+│   ├───1385 Find the Distance Value Between Two Arrays
+│   │   └───assets
+│   └───1403 Minimum Subsequence in Non-Increasing Order
 │       └───assets
 ├───F 1501-1800
 │   ├───1502 Can Make Arithmetic Progression From Sequence
