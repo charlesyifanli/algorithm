@@ -162,7 +162,11 @@ C:.
 ├───G 1801-2100
 │   ├───1822 Sign of the Product of an Array
 │   │   └───assets
-│   └───1859 Sorting the Sentence
+│   ├───1859 Sorting the Sentence
+│   │   └───assets
+│   ├───1913 Maximum Product Difference Between Two Pairs
+│   │   └───assets
+│   └───1984 Minimum Difference Between Highest and Lowest of K Scores
 │       └───assets
 └───materials
     ├───basic
