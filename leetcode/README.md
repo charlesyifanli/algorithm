@@ -6,11 +6,11 @@
 ## 👇👇The following is directory structure
 
 ```
-C:.                                       
-├───A 1-300                               
-│   ├───0001 Two Sum                      
-│   │   └───assets                        
-│   ├───0002 Add Two Numbers              
+C:.                              
+├───A 1-300                      
+│   ├───0001 Two Sum             
+│   │   └───assets               
+│   ├───0002 Add Two Numbers     
 │   │   └───assets
 │   ├───0003 Longest Substring Without Repeating Characters
 │   │   └───assets
@@ -139,6 +139,8 @@ C:.
 │   └───0976 Largest Perimeter Triangle
 │       └───assets
 ├───E 1201-1500
+│   ├───1207 Unique Number of Occurrences
+│   │   └───assets
 │   ├───1275 Find Winner on a Tic Tac Toe Game
 │   │   └───assets
 │   ├───1385 Find the Distance Value Between Two Arrays
@@ -167,6 +169,9 @@ C:.
 │   ├───1913 Maximum Product Difference Between Two Pairs
 │   │   └───assets
 │   └───1984 Minimum Difference Between Highest and Lowest of K Scores
+│       └───assets
+├───H 2101-inf
+│   └───2744 Find Maximum Number of String Pairs
 │       └───assets
 └───materials
     ├───basic
