@@ -4,6 +4,11 @@ from collections import Counter
 
 class Solution(object):
     def uniqueOccurrences(self, arr: List[int]) -> bool:
+        return len(Counter(arr).values()) == len(set(Counter(arr).values()))
+
+
+'''
+    def uniqueOccurrences(self, arr: List[int]) -> bool:
         dict_ = Counter(arr)
         keys = dict_.keys()
         set_ = set()
@@ -11,7 +16,7 @@ class Solution(object):
             if dict_[key] in set_: return False
             set_.add(dict_[key])
         return True
-
+'''
 
 if __name__ == '__main__':
     def test():
