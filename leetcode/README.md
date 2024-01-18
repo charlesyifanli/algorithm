@@ -82,6 +82,8 @@ C:.
 │   └───assets
 ├───0125 Valid Palindrome
 │   └───assets
+├───0136 Single Number
+│   └───assets
 ├───0141 Linked List Cycle
 │   └───assets
 ├───0144 Binary Tree Preorder Traversal
