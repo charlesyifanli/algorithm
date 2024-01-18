@@ -25,7 +25,7 @@ if __name__ == '__main__':
         beans = [2, 10, 3, 2]
         assert Solution().minimumRemoval(beans) == 7
 
-        print('SUcceed')
+        print('Succeed')
 
 
     test()
