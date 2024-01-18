@@ -6,11 +6,11 @@
 ## 👇👇The following is directory structure
 
 ```
-C:.                              
-├───A 1-300                      
-│   ├───0001 Two Sum             
-│   │   └───assets               
-│   ├───0002 Add Two Numbers     
+C:.
+├───A 1-300
+│   ├───0001 Two Sum
+│   │   └───assets
+│   ├───0002 Add Two Numbers
 │   │   └───assets
 │   ├───0003 Longest Substring Without Repeating Characters
 │   │   └───assets
@@ -171,6 +171,8 @@ C:.
 │   └───1984 Minimum Difference Between Highest and Lowest of K Scores
 │       └───assets
 ├───H 2101-inf
+│   ├───2171 Removing Minimum Number of Magic Beans
+│   │   └───assets
 │   └───2744 Find Maximum Number of String Pairs
 │       └───assets
 └───materials
