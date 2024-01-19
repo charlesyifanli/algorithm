@@ -8,6 +8,6 @@ list,set,dict
 
 ## E,g,.
 
-![](./assets/img_2.png)
-![](./assets/img_1.png)
-![](./assets/img.png)
+![](assets/img_2.png)
+![](assets/img_1.png)
+![](assets/img.png)
