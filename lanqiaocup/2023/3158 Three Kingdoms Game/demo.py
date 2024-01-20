@@ -23,9 +23,9 @@ class Solution(object):
 
     def helper(self, n: int, diff_i: List[int]) -> int:
         diff_i.sort(reverse=True)
-        for i in range(1, n):
-            diff_i[i] += diff_i[i - 1]
-        for i in range(n):
+        for i in range(0, n):
+            if i != 0:
+                diff_i[i] += diff_i[i - 1]
             if diff_i[i] <= 0:
                 return i
 
