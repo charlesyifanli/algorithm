@@ -1,51 +1,33 @@
+from typing import List
+
+
 class Solution(object):
-    def f(self) -> None:
+    def f(self) -> int:
         n = int(input())
-        lst1 = list(map(int, input().split()))
-        lst2 = list(map(int, input().split()))
-        lst3 = list(map(int, input().split()))
-        max_a = 0
-        max_b = 0
-        max_c = 0
-        lst_a = []
+        input_a = list(map(int, input().split()))
+        input_b = list(map(int, input().split()))
+        input_c = list(map(int, input().split()))
+
+        diff_a, diff_b, diff_c = [], [], []
         for i in range(n):
-            a, b, c = lst1[i], lst2[i], lst3[i]
-            lst_a.append(a - b - c)
-        lst_a.sort(reverse=True)
-        # 前缀和优化(将时间复杂度降至O(n))
+            diff_a.append(input_a[i] - input_b[i] - input_c[i])
+            diff_b.append(input_b[i] - input_a[i] - input_c[i])
+            diff_c.append(input_c[i] - input_b[i] - input_a[i])
+
+        count_a = self.helper(n, diff_a)
+        count_b = self.helper(n, diff_b)
+        count_c = self.helper(n, diff_c)
+
+        res = max(count_a, count_b, count_c)
+        return -1 if res == 0 else res
+
+    def helper(self, n: int, diff_i: List[int]) -> int:
+        diff_i.sort(reverse=True)
         for i in range(1, n):
-            lst_a[i] += lst_a[i - 1]
+            diff_i[i] += diff_i[i - 1]
         for i in range(n):
-            if lst_a[i] <= 0:
-                break
-        max_a = i
-        lst_b = []
-        for i in range(n):
-            a, b, c = lst1[i], lst2[i], lst3[i]
-            lst_b.append(b - a - c)
-        lst_b.sort(reverse=True)
-        for i in range(1, n):
-            lst_b[i] += lst_b[i - 1]
-        for i in range(n):
-            if lst_b[i] <= 0:
-                break
-        max_b = i
-        lst_c = []
-        for i in range(n):
-            a, b, c = lst1[i], lst2[i], lst3[i]
-            lst_c.append(c - a - b)
-        lst_c.sort(reverse=True)
-        for i in range(1, n):
-            lst_c[i] += lst_c[i - 1]
-        for i in range(n):
-            if lst_c[i] <= 0:
-                break
-        max_c = i
-        result = max(max_a, max_b, max_c)
-        if result == 0:
-            print(-1)
-        else:
-            print(result)
+            if diff_i[i] <= 0:
+                return i
 
 
-Solution().f()
+print(Solution().f())
