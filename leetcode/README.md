@@ -161,16 +161,18 @@ C:.
   <summary>D 901-1200 </summary>
 
 ```
-C:.
-├───0905 Sort Array By Parity
+C:.                                       
+├───0657 Robot Return to Origin           
+│   └───assets                            
+├───0682 Baseball Game                    
+│   └───assets                            
+├───0709 To Lower Case
 │   └───assets
-├───0907 Sum of Subarray Minimums
+├───0739 Daily Temperatures
 │   └───assets
-├───0922 Sort Array By Parity II
+├───0876 Middle of the Linked List
 │   └───assets
-├───0931 Minimum Falling Path Sum
-│   └───assets
-└───0976 Largest Perimeter Triangle
+└───0896 Monotonic Array
     └───assets
 ```
 </details>
