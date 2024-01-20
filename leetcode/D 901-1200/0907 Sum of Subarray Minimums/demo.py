@@ -3,16 +3,17 @@ from typing import List
 
 class Solution(object):
     def sumSubarrayMins(self, arr: List[int]) -> int:
-        res = 0
-        arr = [0] + arr + [0]
-        stack = []
-        for i, val in enumerate(arr):
-            while stack and arr[stack[-1]] > val:
-                j = stack.pop()
-                k = stack[-1]
-                res += arr[j] * (i - j) * (j - k)
-            stack.append(i)
-        return res % (10 ** 9 + 7)
+        return 0
+# res = 0
+# arr = [0] + arr + [0]
+# stack = []
+# for i, val in enumerate(arr):
+#     while stack and arr[stack[-1]] > val:
+#         j = stack.pop()
+#         k = stack[-1]
+#         res += arr[j] * (i - j) * (j - k)
+#     stack.append(i)
+# return res % (10 ** 9 + 7)
 
 
 if __name__ == '__main__':
