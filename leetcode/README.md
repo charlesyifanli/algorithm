@@ -161,11 +161,13 @@ C:.
   <summary>D 901-1200 </summary>
 
 ```
-C:.                                       
-├───0905 Sort Array By Parity             
-│   └───assets                            
-├───0922 Sort Array By Parity II          
-│   └───assets                            
+C:.
+├───0905 Sort Array By Parity
+│   └───assets
+├───0907 Sum of Subarray Minimums
+│   └───assets
+├───0922 Sort Array By Parity II
+│   └───assets
 ├───0931 Minimum Falling Path Sum
 │   └───assets
 └───0976 Largest Perimeter Triangle
@@ -237,10 +239,12 @@ C:.
   <summary>H 2101-inf </summary>
 
 ```
-C:.
+C:.                                            
 ├───2171 Removing Minimum Number of Magic Beans
-│   └───assets
-└───2744 Find Maximum Number of String Pairs
+│   └───assets                                 
+├───2744 Find Maximum Number of String Pairs   
+│   └───assets                                 
+└───2788 Split Strings by Separator
     └───assets
 ```
 </details>
