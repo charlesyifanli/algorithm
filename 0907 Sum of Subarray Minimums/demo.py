@@ -4,8 +4,8 @@ from typing import List
 class Solution(object):
     def sumSubarrayMins(self, arr: List[int]) -> int:
         res = 0
-        stack = []
         arr = [0] + arr + [0]
+        stack = []
         for i, val in enumerate(arr):
             while stack and arr[stack[-1]] > val:
                 j = stack.pop()
