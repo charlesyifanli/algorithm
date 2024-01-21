@@ -15,10 +15,6 @@
 <details>
    <summary>Stack</summary>
 
-```
-907
-```
-
 [stack](https://www.geeksforgeeks.org/stack-in-python/)
 
 [monotonic stack](https://www.geeksforgeeks.org/introduction-to-monotonic-stack-data-structure-and-algorithm-tutorials/?ref=gcse)
@@ -35,6 +31,10 @@ def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
             stack.pop()
         stack.append(i)
     return res
+```
+
+```
+leetcode: 84, 42, 739
 ```
 
 </details>
@@ -56,11 +56,14 @@ def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
 <details>
    <summary>Dynamic Programming</summary>
 
+[dp](https://www.geeksforgeeks.org/dynamic-programming/?ref=gcse)
+
+#### template
+
 ```
-0931
+leetcode: 931
 ```
 
-[references](https://www.geeksforgeeks.org/dynamic-programming/?ref=gcse)
 </details>
 
 <br>
