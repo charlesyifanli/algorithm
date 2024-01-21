@@ -16,10 +16,27 @@
    <summary>Stack</summary>
 
 ```
-
+907
 ```
 
-[references](https://www.geeksforgeeks.org/stack-in-python/)
+[stack](https://www.geeksforgeeks.org/stack-in-python/)
+
+[monotonic stack](https://www.geeksforgeeks.org/introduction-to-monotonic-stack-data-structure-and-algorithm-tutorials/?ref=gcse)
+
+#### template
+
+```
+def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
+    res = [0] * len(temperatures)
+    stack = []
+    for i, val in enumerate(temperatures):
+        while stack and temperatures[stack[-1]] < val:
+            res[stack[-1]] = i - stack[-1]
+            stack.pop()
+        stack.append(i)
+    return res
+```
+
 </details>
 
 <br>
