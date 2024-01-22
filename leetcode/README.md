@@ -141,12 +141,14 @@ C:.
   <summary>C 601-900 </summary>
 
 ```
-C:.
-├───0657 Robot Return to Origin
-│   └───assets
-├───0682 Baseball Game
-│   └───assets
+C:.                                       
+├───0657 Robot Return to Origin           
+│   └───assets                            
+├───0682 Baseball Game                    
+│   └───assets                            
 ├───0709 To Lower Case
+│   └───assets
+├───0739 Daily Temperatures
 │   └───assets
 ├───0876 Middle of the Linked List
 │   └───assets
