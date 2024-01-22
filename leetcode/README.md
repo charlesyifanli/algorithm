@@ -162,17 +162,13 @@ C:.
 
 ```
 C:.                                       
-├───0657 Robot Return to Origin           
+├───0905 Sort Array By Parity             
 │   └───assets                            
-├───0682 Baseball Game                    
+├───0922 Sort Array By Parity II          
 │   └───assets                            
-├───0709 To Lower Case
+├───0931 Minimum Falling Path Sum
 │   └───assets
-├───0739 Daily Temperatures
-│   └───assets
-├───0876 Middle of the Linked List
-│   └───assets
-└───0896 Monotonic Array
+└───0976 Largest Perimeter Triangle
     └───assets
 ```
 </details>
