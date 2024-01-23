@@ -170,7 +170,9 @@ C:.
 │   └───assets                            
 ├───0931 Minimum Falling Path Sum
 │   └───assets
-└───0976 Largest Perimeter Triangle
+├───0976 Largest Perimeter Triangle
+│   └───assets
+└───1200 Minimum Absolute Difference
     └───assets
 ```
 </details>
