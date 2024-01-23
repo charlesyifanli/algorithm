@@ -94,6 +94,8 @@ C:.
 │   └───assets
 ├───0167 Two Sum II - Input array is sorted
 │   └───assets
+├───0169 Majority Element
+│   └───assets
 ├───0203 Remove Linked List Elements
 │   └───assets
 ├───0206 Reverse Linked List
