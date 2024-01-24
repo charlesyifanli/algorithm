@@ -1,7 +1,7 @@
 from typing import List
 
 
-class Solution:
+class Solution(object):
     def splitWordsBySeparator(self, words: List[str], separator: str) -> List[str]:
         res = []
         for val in words:
