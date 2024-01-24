@@ -3,10 +3,19 @@ from typing import List
 
 class Solution(object):
     def missingNumber(self, nums: List[int]) -> int:
+        # Gauss' Formula
+        n = len(nums)
+        expected_sum = n * (n + 1) // 2
+        actual_sum = sum(nums)
+        return expected_sum - actual_sum
+
+
+'''
+    def missingNumber(self, nums: List[int]) -> int:
         for val in range(len(nums) + 1):
             if val not in nums:
                 return val
-
+'''
 
 if __name__ == '__main__':
     def test():
