@@ -8,11 +8,11 @@
   <summary>A 1-300 </summary>
 
 ```
-C:.
-├───0001 Two Sum
-│   └───assets
-├───0002 Add Two Numbers
-│   └───assets
+C:.                                       
+├───0001 Two Sum                          
+│   └───assets                            
+├───0002 Add Two Numbers                  
+│   └───assets                            
 ├───0003 Longest Substring Without Repeating Characters
 │   └───assets
 ├───0007 Reverse Integer
@@ -100,6 +100,8 @@ C:.
 │   └───assets
 ├───0206 Reverse Linked List
 │   └───assets
+├───0217 Contains Duplicate
+│   └───assets
 ├───0225 Implement Stack using Queues
 │   └───assets
 ├───0234 Palindrome Linked List
@@ -108,10 +110,12 @@ C:.
 │   └───assets
 ├───0242 Valid Anagram
 │   └───assets
+├───0268 Missing Number
+│   └───assets
 ├───0278 First Bad Version
 │   └───assets
 └───0283 Move Zeroes
-    └───assets    
+    └───assets
 ```
 </details>
 
