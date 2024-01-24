@@ -125,10 +125,12 @@ C:.
   <summary>B 301-600 </summary>
 
 ```
-C:.
-├───0303 Range Sum Query - Immutable
-│   └───assets
-├───0338 Counting Bits
+C:.                                       
+├───0303 Range Sum Query - Immutable      
+│   └───assets                            
+├───0338 Counting Bits                    
+│   └───assets                            
+├───0349 Intersection of Two Arrays
 │   └───assets
 ├───0389 Find the Difference
 │   └───assets
@@ -137,7 +139,7 @@ C:.
 ├───0401 Binary Watch
 │   └───assets
 └───0459 Repeated Substring Pattern
-    └───assets  
+    └───assets
 ```
 </details>
 
