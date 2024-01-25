@@ -138,6 +138,8 @@ C:.
 │   └───assets
 ├───0401 Binary Watch
 │   └───assets
+├───0414 Third Maximum Number
+│   └───assets
 └───0459 Repeated Substring Pattern
     └───assets
 ```
