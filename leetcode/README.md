@@ -142,7 +142,9 @@ C:.
 │   └───assets
 ├───0455 Assign Cookies
 │   └───assets
-└───0459 Repeated Substring Pattern
+├───0459 Repeated Substring Pattern
+│   └───assets
+└───0506 Relative Ranks
     └───assets
 ```
 </details>
