@@ -15,6 +15,9 @@ class Solution(object):
 if __name__ == '__main__':
     def test():
         # case
+        nums = [1, 3, 2, 2, 5, 2, 3, 7]
+        assert Solution().findLHS(nums) == 5
+
         print('Succeed')
 
 
