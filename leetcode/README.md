@@ -148,7 +148,9 @@ C:.
 │   └───assets
 ├───0459 Repeated Substring Pattern
 │   └───assets
-└───0506 Relative Ranks
+├───0506 Relative Ranks
+│   └───assets
+└───0561 Array Partition
     └───assets
 ```
 </details>
