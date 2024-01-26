@@ -150,7 +150,9 @@ C:.
 │   └───assets
 ├───0506 Relative Ranks
 │   └───assets
-└───0561 Array Partition
+├───0561 Array Partition
+│   └───assets
+└───0594 Longest Harmonious Subsequence
     └───assets
 ```
 </details>
