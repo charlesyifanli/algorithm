@@ -15,9 +15,9 @@ class Solution(object):
 if __name__ == '__main__':
     def test():
         # case
-        alice_sizes = [1, 2, 5]
-        bob_sizes = [2, 4]
-        assert Solution().fairCandySwap(alice_sizes, bob_sizes) == [5, 4]
+        alice_sizes = [2, 4]
+        bob_sizes = [1, 2, 5]
+        assert Solution().fairCandySwap(alice_sizes, bob_sizes) == [4, 5]
 
         print('Succeed')
 
