@@ -3,24 +3,19 @@ from typing import List
 
 class Solution(object):
     def sortByBits(self, arr: List[int]) -> List[int]:
-        # 使用哈希表（字典），建立 <二进制1的次数, [数字1， 数字2，...]>的映射
-        d = dict()
-        for x in arr:
-            b = bin(x)  # 把 x 转出二进制字符串
-            cnt = b.count('1')  # 统计二进制中 '1' 的个数
-            # print('cnt = ', cnt)
-            if cnt not in d:
-                # 不存在值为 cnt 的key，建立 <cnt, []>的映射关系
-                d[cnt] = list()
-            d[cnt].append(x)
-        # 将字典 d 按 key（1的出现次数）进行排序
-        keys = sorted(d.keys())
-        ans = list()
-        for k in keys:
-            # 对 list 进行排序
-            ans += sorted(d[k])
-            # print('k = ', k)
-        return ans
+        arr.sort()
+        dict_ = {}
+        for val in arr:
+            count = bin(val).count('1')
+            if count not in dict_:
+                dict_[count] = [val]
+            else:
+                dict_[count].append(val)
+        sorted_list = sorted(dict_.items(), key=lambda x: x[0])
+        res = []
+        for val in sorted_list:
+            res += val[1]
+        return res
 
 
 if __name__ == '__main__':
