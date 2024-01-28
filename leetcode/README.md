@@ -176,6 +176,8 @@ C:.
 │   └───assets
 ├───0739 Daily Temperatures
 │   └───assets
+├───0747 Largest Number At Least Twice of Others
+│   └───assets
 ├───0876 Middle of the Linked List
 │   └───assets
 └───0896 Monotonic Array
