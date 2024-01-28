@@ -9,6 +9,11 @@ class Solution(object):
 
 if __name__ == '__main__':
     def test():
+        # case
+        nums = [4, 2, 3]
+        k = 1
+        assert Solution().largestSumAfterKNegations(nums, k) == 5
+
         print('Succeed')
 
 
