@@ -202,6 +202,8 @@ C:.
 │   └───assets
 ├───0976 Largest Perimeter Triangle
 │   └───assets
+├───0977 Squares of a Sorted Array
+│   └───assets
 └───1200 Minimum Absolute Difference
     └───assets
 ```
