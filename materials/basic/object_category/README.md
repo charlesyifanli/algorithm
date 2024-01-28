@@ -11,3 +11,7 @@ list,set,dict
 ![](assets/img_2.png)
 ![](assets/img_1.png)
 ![](assets/img.png)
+
+## dict
+
+![](./assets/img_3.png)
