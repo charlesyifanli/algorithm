@@ -180,6 +180,8 @@ C:.
 │   └───assets
 ├───0876 Middle of the Linked List
 │   └───assets
+├───0888 Fair Candy Swap
+│   └───assets
 └───0896 Monotonic Array
     └───assets
 ```
