@@ -219,6 +219,8 @@ C:.
 ├───1207 Unique Number of Occurrences
 │   └───assets
 ├───1275 Find Winner on a Tic Tac Toe Game
+│   └───assets                            
+├───1356 Sort Integers by The Number of 1 Bits
 │   └───assets
 ├───1385 Find the Distance Value Between Two Arrays
 │   └───assets
