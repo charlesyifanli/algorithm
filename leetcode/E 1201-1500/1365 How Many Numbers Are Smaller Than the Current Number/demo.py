@@ -4,6 +4,9 @@ from typing import List
 class Solution(object):
     def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
         res = []
+        sorted_list = sorted(nums)
+        for i in range(len(nums)):
+            res += [sorted_list.index(nums[i])]
         return res
 
 
