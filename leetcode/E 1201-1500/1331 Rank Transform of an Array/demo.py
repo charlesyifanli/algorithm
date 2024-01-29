@@ -3,8 +3,13 @@ from typing import List
 
 class Solution(object):
     def arrayRankTransform(self, arr: List[int]) -> List[int]:
-        res = []
-        return res
+        sorted_list = sorted(list(set(arr)))
+        dict_ = {}
+        for idx, val in enumerate(sorted_list):
+            dict_[val] = idx + 1
+        for i in range(len(arr)):
+            arr[i] = dict_[arr[i]]
+        return arr
 
 
 if __name__ == '__main__':
