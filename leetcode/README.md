@@ -215,12 +215,16 @@ C:.
   <summary>E 1201-1500 </summary>
 
 ```
-C:.
-├───1207 Unique Number of Occurrences
-│   └───assets
+C:.                                       
+├───1207 Unique Number of Occurrences     
+│   └───assets                            
 ├───1275 Find Winner on a Tic Tac Toe Game
 │   └───assets                            
+├───1331 Rank Transform of an Array
+│   └───assets
 ├───1356 Sort Integers by The Number of 1 Bits
+│   └───assets
+├───1365 How Many Numbers Are Smaller Than the Current Number
 │   └───assets
 ├───1385 Find the Distance Value Between Two Arrays
 │   └───assets
