@@ -222,6 +222,8 @@ C:.
 │   └───assets                            
 ├───1331 Rank Transform of an Array
 │   └───assets
+├───1346 Check If N and Its Double Exist
+│   └───assets
 ├───1356 Sort Integers by The Number of 1 Bits
 │   └───assets
 ├───1365 How Many Numbers Are Smaller Than the Current Number
