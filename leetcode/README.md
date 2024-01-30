@@ -8,7 +8,7 @@
   <summary>A 1-300 </summary>
 
 ```
-C:.                                       
+C:.  55                                     
 ├───0001 Two Sum                          
 │   └───assets                            
 ├───0002 Add Two Numbers                  
@@ -127,7 +127,7 @@ C:.
   <summary>B 301-600 </summary>
 
 ```
-C:.
+C:.  13                                     
 ├───0303 Range Sum Query - Immutable
 │   └───assets
 ├───0338 Counting Bits
@@ -163,15 +163,15 @@ C:.
   <summary>C 601-900 </summary>
 
 ```
-C:.                                       
-├───0628 Maximum Product of Three Numbers 
-│   └───assets                            
-├───0645 Set Mismatch                     
-│   └───assets                           
-├───0657 Robot Return to Origin           
-│   └───assets                                             
-├───0682 Baseball Game                    
-│   └───assets                            
+C:.  10
+├───0628 Maximum Product of Three Numbers
+│   └───assets
+├───0645 Set Mismatch
+│   └───assets
+├───0657 Robot Return to Origin
+│   └───assets
+├───0682 Baseball Game
+│   └───assets
 ├───0709 To Lower Case
 │   └───assets
 ├───0739 Daily Temperatures
@@ -179,7 +179,6 @@ C:.
 ├───0747 Largest Number At Least Twice of Others
 │   └───assets
 ├───0876 Middle of the Linked List
-│   └───assets
 ├───0888 Fair Candy Swap
 │   └───assets
 └───0896 Monotonic Array
@@ -193,7 +192,7 @@ C:.
   <summary>D 901-1200 </summary>
 
 ```
-C:.                                       
+C:.  6                                 
 ├───0905 Sort Array By Parity             
 │   └───assets                            
 ├───0922 Sort Array By Parity II          
@@ -215,7 +214,7 @@ C:.
   <summary>E 1201-1500 </summary>
 
 ```
-C:.                                       
+C:.  8                                   
 ├───1207 Unique Number of Occurrences     
 │   └───assets                            
 ├───1275 Find Winner on a Tic Tac Toe Game
@@ -241,7 +240,7 @@ C:.
   <summary>F 1501-1800 </summary>
 
 ```
-C:.
+C:.  6
 ├───1502 Can Make Arithmetic Progression From Sequence
 │   └───assets
 ├───1523 Count Odd Numbers in an Interval Range
@@ -263,7 +262,7 @@ C:.
   <summary>G 1801-2100 </summary>
 
 ```
-C:.
+C:.  4
 ├───1822 Sign of the Product of an Array
 │   └───assets
 ├───1859 Sorting the Sentence
@@ -281,7 +280,7 @@ C:.
   <summary>H 2101-inf </summary>
 
 ```
-C:.                                            
+C:.  3                                         
 ├───2171 Removing Minimum Number of Magic Beans
 │   └───assets                                 
 ├───2744 Find Maximum Number of String Pairs   
