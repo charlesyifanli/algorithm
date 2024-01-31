@@ -1,7 +1,7 @@
 /**
  * @param arr {number[]}
  * @return {boolean}
- */
+ */2
 var uniqueOccurrences = function (arr) {
     var counts = arr.reduce(function (acc, num) {
         acc[num] = (acc[num] || 0) + 1
