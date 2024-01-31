@@ -280,11 +280,13 @@ C:.  4
   <summary>H 2101-inf </summary>
 
 ```
-C:.  3                                         
+C:.  4                                        
 ├───2171 Removing Minimum Number of Magic Beans
 │   └───assets                                 
-├───2744 Find Maximum Number of String Pairs   
+├───2465 Number of Distinct Averages           
 │   └───assets                                 
+├───2744 Find Maximum Number of String Pairs
+│   └───assets
 └───2788 Split Strings by Separator
     └───assets
 ```
