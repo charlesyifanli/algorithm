@@ -1,4 +1,4 @@
-class Solution:
+class Solution(object):
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         num_dict = {}
         for index, num in enumerate(nums):
