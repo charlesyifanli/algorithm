@@ -286,11 +286,17 @@ C:.
   <summary>H 2101-inf </summary>
 
 ```
-C:.                                          
+C:.                                                               
+├───2148 Count Elements With Strictly Smaller and Greater Elements
+│   └───assets                                                    
+├───2154 Keep Multiplying Found Values by Two                     
+│   └───assets                                                    
+├───2160 Minimum Sum of Four Digit Number After Splitting Digits
+│   └───assets
 ├───2171 Removing Minimum Number of Magic Beans
-│   └───assets                                 
-├───2465 Number of Distinct Averages           
-│   └───assets                                 
+│   └───assets
+├───2465 Number of Distinct Averages
+│   └───assets
 ├───2744 Find Maximum Number of String Pairs
 │   └───assets
 └───2788 Split Strings by Separator
