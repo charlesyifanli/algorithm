@@ -3,8 +3,9 @@ from typing import List
 
 class Solution(object):
     def findFinalValue(self, nums: List[int], original: int) -> int:
-        res = 0
-        return res
+        nums.sort()
+        while original in nums: original *= 2
+        return original
 
 
 if __name__ == '__main__':
