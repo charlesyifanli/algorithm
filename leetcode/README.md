@@ -102,6 +102,8 @@ C:.
 │   └───assets
 ├───0203 Remove Linked List Elements
 │   └───assets
+├───0205 Isomorphic Strings
+│   └───assets
 ├───0206 Reverse Linked List
 │   └───assets
 ├───0217 Contains Duplicate
