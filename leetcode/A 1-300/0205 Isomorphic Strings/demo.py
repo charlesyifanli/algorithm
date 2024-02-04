@@ -5,13 +5,9 @@ class Solution(object):
             if s[i] not in dict_:
                 if t[i] in dict_.values(): return False
                 dict_[s[i]] = t[i]
-            else:
-                if dict_[s[i]] != t[i]:
-                    return False
-                else:
-                    continue
+            elif dict_[s[i]] != t[i]:
+                return False
         return True
-
 
 if __name__ == '__main__':
     def test():
