@@ -23,6 +23,8 @@ C:.
 │   └───assets
 ├───0013 Roman to Integer
 │   └───assets
+├───0014 Longest Common Prefix
+│   └───assets
 ├───0015 3Sum
 │   └───assets
 ├───0016 3Sum Closest
