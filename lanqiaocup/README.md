@@ -1,6 +1,4 @@
 ## 👇👇The following is directory structure
-<details>
-  <summary>A 1-300 </summary>
 
 ```
 C:.                                       
@@ -13,6 +11,5 @@ C:.
     └───3179 Average
         └───assets
 ```
-</details>
 
 <br>
