@@ -15,6 +15,11 @@ Phisical structure:
 Sequential storage structure, linked storage structure, index access structure, hash access structure 
 ```
 
+```
+Algorithm focuses on efficiently performing CRUD operations,
+balancing both time and space resources effectively.
+```
+
 ### References✨✨
 
 <details>
