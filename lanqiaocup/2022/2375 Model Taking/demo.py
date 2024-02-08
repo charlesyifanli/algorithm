@@ -1,5 +1,5 @@
 class Solution(object):
-    def take_model(self):
+    def take_model(self) -> None:
         count = int(input())
         res = []
         for i in range(count):
