@@ -1,3 +1,8 @@
+## 👇👇The following is directory structure
+<details>
+  <summary>A 1-300 </summary>
+
+```
 C:.                                       
 ├───2022                                  
 │   └───2375 Model Taking
@@ -7,3 +12,7 @@ C:.
     │   └───assets
     └───3179 Average
         └───assets
+```
+</details>
+
+<br>
