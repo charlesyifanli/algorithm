@@ -1,3 +1,25 @@
+### Program = Data Structure  + Algorithm✨✨
+
+```
+Data structure is like a container while algorithm is around CRUD.  
+```
+
+```
+Data structure describes the logical relationship between elements, 
+and decides how to use the phisical address.
+
+Logical structure: 
+Set structure, linear structure, tree structure, graph structure
+
+Phisical structure:
+Sequential storage structure, linked storage structure, index access structure, hash access structure 
+```
+
+```
+Algorithm focuses on efficiently performing CRUD operations,
+balancing both time and space resources effectively.
+```
+
 ### References✨✨
 
 <details>
