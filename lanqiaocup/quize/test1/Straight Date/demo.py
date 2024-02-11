@@ -1,6 +1,6 @@
 from datetime import *
 
-n = datetime(2022, 1, 1)
+n = datetime(2022, 1, 1, 12, 34, 6)
 sum_ = 0
 for i in range(0, 366):
     s = "2022%02d%02d" % (n.month, n.day)
