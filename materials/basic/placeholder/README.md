@@ -49,3 +49,13 @@ now = datetime.datetime.now()
 formatted_date = "{:%Y-%m-%d %H:%M:%S}".format(now)  # 格式化当前时间
 print(formatted_date)
 ```
+
+Handle Parameters
+```
+demo = 1
+demo2 = 2
+
+str_ = 'test:{1:!<20.3f}\n{0:?>20.2f}'.format(demo, demo2)
+
+print(str_)
+```
