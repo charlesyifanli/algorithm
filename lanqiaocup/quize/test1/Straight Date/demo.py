@@ -1,10 +1,12 @@
-from datetime import *
+from datetime import datetime, timedelta
 
-n = datetime(2022, 1, 1, 12, 34, 6)
+n = datetime(2022, 1, 1)
 sum_ = 0
+set_ = {'012', '123', '234', '345'}
 for i in range(0, 366):
-    s = "2022%02d%02d" % (n.month, n.day)
+    str_ = '2022{:02d}{:02d}'.format(n.month, n.day)
+    # str_ = "2022%02d%02d" % (n.month, n.day)
     n += timedelta(days=1)
-    if '012' in s or '123' in s or '234' in s or '345' in s:
+    if any(x in str_ for x in set_):
         sum_ += 1
 print(sum_)
