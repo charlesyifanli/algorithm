@@ -16,9 +16,9 @@ class Solution(object):
                 else:
                     dp[i][j] = ls[i][j] + max(dp[i - 1][j], dp[i - 1][j - 1])
         if n % 2 == 0:
-            print(max(dp[n - 1][n // 2], dp[n - 1][n // 2 + 1]))
+            print(max(dp[n - 1][(n - 1) // 2], dp[n - 1][(n - 1) // 2 + 1]))
         else:
-            print(dp[n - 1][n // 2])
+            print(dp[n - 1][(n - 1) // 2])
 
 
 Solution().function()
