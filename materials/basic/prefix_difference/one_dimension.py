@@ -1,7 +1,8 @@
 def get_pref(arr: list) -> list:
     # Add a 0 at the beginning as a placeholder,
     # because in Python, arr[0-1] represents the last element, so add a 0 at the end
-    pref = [arr[0] for _ in range(len(arr))] + [0]
+    pref = [0 for _ in range(len(arr) + 1)]
+    pref[0] = arr[0]
     for i in range(1, len(arr)):
         pref[i] = pref[i - 1] + arr[i]
     return pref
