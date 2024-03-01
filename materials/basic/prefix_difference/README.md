@@ -1,4 +1,6 @@
-## get_pref
+## one dimension
+
+### get_pref
 
 ```
 def get_pref(arr: list) -> list:
@@ -10,7 +12,7 @@ def get_pref(arr: list) -> list:
     return pref
 ```
 
-## def get_diff
+### def get_diff
 
 ```
 def get_diff(arr: list) -> list:
@@ -20,7 +22,7 @@ def get_diff(arr: list) -> list:
     return diff
 ```
 
-## get_sum_from_n_to_m
+### get_sum_from_n_to_m
 
 ```
 def get_sum_from_n_to_m(arr: list, n: int, m: int) -> int:
@@ -28,7 +30,7 @@ def get_sum_from_n_to_m(arr: list, n: int, m: int) -> int:
     return pref[m] - pref[n - 1]
 ```
 
-## add_number_from_n_to_m
+### add_number_from_n_to_m
 
 ```
 def add_number_from_n_to_m(arr: list, n: int, m: int, num: int) -> list:
