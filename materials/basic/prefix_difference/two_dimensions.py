@@ -26,7 +26,12 @@ def get_2d_diff(arr: list) -> list:
     return diff
 
 
-arr = [[1, 2, 3], [2, 3, 4]]
+def get_2d_sum(arr: list, x1: int, y1: int, x2: int, y2: int) -> int:
+    pref = get_2d_pref(arr)
+    print(pref)
+    return pref[x2][y2] - pref[x2][y1 - 1] - pref[x1 - 1][y2] + pref[x1 - 1][y1 - 1]
 
-print(get_2d_diff(get_2d_pref(arr)))
-print(get_2d_pref(get_2d_diff(arr)))
+
+arr = [[1, 2], [2, 3], [3, 4]]
+
+print(get_2d_sum(arr, 1, 1, 2, 1))
