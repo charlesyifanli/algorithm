@@ -9,7 +9,8 @@ def get_pref(arr: list) -> list:
 
 
 def get_diff(arr: list) -> list:
-    diff = [arr[0] for _ in range(len(arr))]
+    diff = [0 for _ in range(len(arr))]
+    diff[0] = arr[0]
     for i in range(1, len(arr)):
         diff[i] = arr[i] - arr[i - 1]
     return diff
@@ -28,7 +29,7 @@ def add_number_from_n_to_m(arr: list, n: int, m: int, num: int) -> list:
     return get_pref(diff)[:len(arr)]
 
 
-arr = [1, 3, 5, 7, 9, 11]
+arr = [1, 3, 5, 7]
 print('prefix >> ', get_pref(arr))
 print('diff >> ', get_diff(arr))
 print(get_sum_from_n_to_m(arr, 0, len(arr) - 1))
