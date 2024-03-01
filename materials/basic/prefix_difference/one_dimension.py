@@ -1,5 +1,4 @@
 def get_pref(arr: list) -> list:
-    if not arr: return []
     # Add a 0 at the beginning as a placeholder,
     # because in Python, arr[0-1] represents the last element, so add a 0 at the end
     pref = [arr[0] for _ in range(len(arr))] + [0]
@@ -9,7 +8,6 @@ def get_pref(arr: list) -> list:
 
 
 def get_diff(arr: list) -> list:
-    if not arr: return []
     diff = [arr[0] for _ in range(len(arr))]
     for i in range(1, len(arr)):
         diff[i] = arr[i] - arr[i - 1]
