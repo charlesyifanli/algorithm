@@ -1,3 +1,5 @@
+# Time Exceeded ! ! !
+#
 def f(chess_ls: list, ope_ls: list) -> list:
     for ope in ope_ls:
         x1, y1, x2, y2 = ope
