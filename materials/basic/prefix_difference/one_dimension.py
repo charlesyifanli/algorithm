@@ -26,7 +26,7 @@ def regional_add_minus(arr: list, n: int, m: int, num: int) -> list:
     diff[n] += num
     if m != len(arr) - 1:
         diff[m + 1] -= num
-    return get_pref(diff)[:len(arr)]
+    return get_pref(diff)
 
 
 arr = [1, 3, 5, 7]
