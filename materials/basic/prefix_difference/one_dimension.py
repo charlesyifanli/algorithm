@@ -16,12 +16,12 @@ def get_diff(arr: list) -> list:
     return diff
 
 
-def get_sum_from_n_to_m(arr: list, n: int, m: int) -> int:
+def regional_sum(arr: list, n: int, m: int) -> int:
     pref = get_pref(arr)
     return pref[m] - pref[n - 1]
 
 
-def add_number_from_n_to_m(arr: list, n: int, m: int, num: int) -> list:
+def regional_add_minus(arr: list, n: int, m: int, num: int) -> list:
     diff = get_diff(arr)
     diff[n] += num
     if m != len(arr) - 1:
@@ -32,5 +32,5 @@ def add_number_from_n_to_m(arr: list, n: int, m: int, num: int) -> list:
 arr = [1, 3, 5, 7]
 print('prefix >> ', get_pref(arr))
 print('diff >> ', get_diff(arr))
-print(get_sum_from_n_to_m(arr, 0, len(arr) - 1))
-print(add_number_from_n_to_m(arr, 0, len(arr) - 2, 4))
+print(regional_sum(arr, 0, len(arr) - 1))
+print(regional_add_minus(arr, 0, len(arr) - 2, 4))
