@@ -9,10 +9,10 @@ for _ in range(Q):
     b -= 1
     num1, den1 = fractions[a]
     num2, den2 = fractions[b]
-    # 计算分子和分母的和
+
     num = num1 * den2 + num2 * den1
     den = den1 * den2
-    # 计算最大公约数并简化分数
+    # Greatest Common Divisor
     gcd = math.gcd(num, den)
     num //= gcd
     den //= gcd
