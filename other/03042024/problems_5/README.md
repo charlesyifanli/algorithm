@@ -17,3 +17,8 @@
 
 ![](./assets/4.png)
 ![](./assets/04.png)
+
+## Remove unattractive pairs
+
+![](./assets/5.png)
+![](./assets/05.png)
