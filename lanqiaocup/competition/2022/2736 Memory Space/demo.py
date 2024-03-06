@@ -26,10 +26,10 @@ def f(s: str) -> int:
         res += 8 * total
 
     elif ls[0] == 'String':
-        b = ls[1].split(',')
-        for x in b:
-            res += len(x) - x.find('=') - 3
-        res -= 1  # 减去后面的分号
+        val_ls = ls[1].split(',')
+        for item in val_ls:
+            res += len(item) - item.find('=') - 3  # len('s12')==3
+        res -= 1
     return res
 
 
