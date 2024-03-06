@@ -29,7 +29,7 @@ def f(s: str) -> int:
         val_ls = ls[1].split(',')
         for item in val_ls:
             res += len(item) - item.find('=') - 3  # len('s12')==3
-        res -= 1
+        res -= 1  # the last string ends with ';'
     return res
 
 
