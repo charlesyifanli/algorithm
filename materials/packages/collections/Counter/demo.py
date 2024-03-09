@@ -1,10 +1,10 @@
 from collections import Counter
 
-# define a list
 lst = [1, 2, 3, 1, 2, 3, 4, 1, 2, 1]
+lst_ = [2, 1, 3, 1, 2, 3, 4, 1, 2, 1]
 
-# use Counter to count the frequency
 counter = Counter(lst)
+counter_ = Counter(lst_)
 
-# print the result
-print(counter)
+print('lst == lst_? >> ' + f'{lst == lst_}')
+print('counter == counter_? >> ' + f'{counter == counter_}')
