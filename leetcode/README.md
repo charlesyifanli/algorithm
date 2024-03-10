@@ -1,5 +1,4 @@
 # Introduction👋👋
-✨✨ Algorithm practice primarily revolves around Python programming, while other languages serve as a secondary interest.<br>
 ✨✨ References are all in the materials in the root directory.<br>
 ✨✨ Good luck to you all!
 
