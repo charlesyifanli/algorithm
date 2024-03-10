@@ -14,4 +14,4 @@ list,set,dict
 
 ## dict
 
-![](./assets/img_3.png)
+![](assets/img_3.png)
