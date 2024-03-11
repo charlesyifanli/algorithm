@@ -10,4 +10,6 @@ Optimize space (optional);
 
 ## Practices
 
+### Fibonacci type
+
 Leetcode: 70, 509, 1137, 746, 198
