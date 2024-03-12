@@ -17,7 +17,8 @@ class Solution(object):
             if count[i][0] - 1 != count[i - 1][0]:
                 dp[i] = dp[i - 1] + count[i][0] * count[i][1]
             else:
-                dp[i] = max(dp[i - 2] + count[i][0] * count[i][1], max(dp[i - 1], count[i][0] * count[i][1]))
+                dp[i] = max(dp[i - 2] + count[i][0] * count[i][1], dp[i - 1])
+
         return dp[-1]
 
 
