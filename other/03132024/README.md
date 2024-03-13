@@ -1,3 +1,5 @@
+## [URL](https://ac.nowcoder.com/acm/contest/77093)
+
 ## A
 
 ![](./assets/a.png)
@@ -73,3 +75,5 @@ Output
 1
 19984
 ```
+
+## C
