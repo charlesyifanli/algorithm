@@ -24,4 +24,4 @@ C:.
         └───assets
 ```
 
-![URL](https://www.dotcpp.com/)
+[URL](https://www.dotcpp.com/)
