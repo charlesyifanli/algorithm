@@ -1,7 +1,3 @@
-# ！！！
-#
-# 代码逻辑来自用户 >> 苏哈克
-# 复制重写仅用于学习
 order = int(input())
 
 mat = [[0] * order for _ in range(order)]
