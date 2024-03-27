@@ -13,7 +13,7 @@ def borrow(num0: int, num1: int) -> int:
     return abs(10 - num1 + num0)
 
 
-def str2list(s0: str, s1: str, len_: int) -> list[list]:
+def str2list(s0: str, s1: str, len_: int) -> List[List]:
     ls_0, ls_1 = [], []
     for i in range(len_):
         ls_0.append(int(s0[i]))
